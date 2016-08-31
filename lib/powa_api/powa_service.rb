@@ -29,9 +29,9 @@ module PowaApi
 
     def self.base_url
       if ::PowaApi.config[:environment] == "production"
-        "https://api.powa.com/ws/soap/v2/"
+        "https://api.gplshops.com/ws/soap/v2/"
       else
-        "https://api.sandbox.powa.com/ws/soap/v2/"
+        "https://api.sandbox.gplshops.com/ws/soap/v2/"
       end
     end
 
